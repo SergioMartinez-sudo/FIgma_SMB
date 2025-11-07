@@ -1,0 +1,241 @@
+/* 17 */
+.center{
+position: relative;
+width: 1440px;
+height: 1475px;
+
+background: #F2F2F2;
+}
+
+
+/* Content */
+
+/* Disposición automática */
+.layout{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+position: absolute;
+width: 695px;
+height: 297px;
+left: 358px;
+top: 64px;
+}
+
+
+
+/* Find the project you love */
+
+.title{
+width: 695px;
+height: 84px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 84px;
+/* idéntica a la altura del cuadro o 150% */
+
+color: #252525;
+}
+
+
+/* Auto layout interior */
+.layout1{
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.Lorem ipsum dolor sit ame,consectetur */
+.text{
+width: 689px;
+height: 99px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: rgba(37, 37, 37, 0.8);
+}
+
+/* Auto layout interior */
+.layout2{
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Primary button */
+
+/* Disposición automática */
+.boton{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 48px;
+gap: 10px;
+
+width: 182px;
+height: 66px;
+
+background: #B22727;
+border-radius: 36px;
+}
+
+/* Auto layout interior */
+.layout3{
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/* Contact us */
+
+.contact{
+width: 86px;
+height: 18px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 18px;
+
+/* idéntica a la altura del cuadro o 75% */
+
+color: #FFFFFF;
+}
+
+/* Auto layout interior */
+.layout4{
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* image */
+.img{
+position: absolute;
+width: 1312px;
+height: 526px;
+left: 64px;
+top: 504px;
+
+background: url(.jpg);
+border-radius: 24px;
+}
+
+/* list  */
+
+/* Disposición automática */
+.jefe{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 40px 64px;
+gap: 72px;
+
+position: absolute;
+width: 1048px;
+height: 191px;
+left: 196px;
+top: 417px;
+
+background: #FFFFFF;
+border-radius: 48px;
+}
+
+/* Frame 14238 */
+
+/* Disposición automática */
+.list2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 176px;
+height: 111px;
+}
+
+
+/* Title 1 */
+.title1{
+width: 71px;
+height: 33px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #252525;
+}
+  
+.linea{
+width: 66px;
+height: 4px;
+
+background: #252525;
+}
+
+/* Lorem ipsum dolor sit amet, consectetur */
+.text1{
+width: 176px;
+height: 50px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+color: rgba(37, 37, 37, 0.7);
+}
+
+/* Auto layout interior */
+.layout8{
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+
+/* Images  bottom */
+
+/* Disposición automática */
+.top{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 1313px;
+height: 344px;
+left: 64px;
+top: 1070px;
+}
+
+
+/* Frame 14243 */
+
+.img1{
+width: 411px;
+height: 344px;
+
+background: url(.jpg), #FFFFFF;
+border-radius: 32px;
+}
+
+
